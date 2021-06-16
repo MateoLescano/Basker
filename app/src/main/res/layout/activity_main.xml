@@ -30,7 +30,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMainTitle"
-        tools:listitem="@layout/photo_layout" />
+        tools:itemCount="15"
+        tools:layoutManager="GridLayoutManager"
+        tools:listitem="@layout/recycler_view_item_2"
+        tools:spanCount="2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

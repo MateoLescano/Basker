@@ -23,14 +23,14 @@ class MainActivity : AppCompatActivity() {
         photoAdapter = PhotoAdapter(applicationContext)
         recyclerView.adapter = photoAdapter
 
-        dataList.add(DataModel(getString(R.string.shooting), "Tiro a distancia", R.drawable.shooting))
-        dataList.add(DataModel(getString(R.string.dribbling), "Moves", R.drawable.dribbling))
-        dataList.add(DataModel(getString(R.string.finishing), "Layups", R.drawable.finishing))
-        dataList.add(DataModel(getString(R.string.postmoves), "Footwork", R.drawable.post))
-        dataList.add(DataModel(getString(R.string.defense), "Clampas", R.drawable.defense))
-        dataList.add(DataModel(getString(R.string.passing), "Dimes", R.drawable.passing))
-        dataList.add(DataModel(getString(R.string.rebounding), "El rebo", R.drawable.rebounding))
-        dataList.add(DataModel(getString(R.string.all), "Mixto", R.drawable.all))
+        dataList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
+        dataList.add(DataModel(getString(R.string.dribbling), getString(R.string.DescDribbling), R.drawable.dribbling))
+        dataList.add(DataModel(getString(R.string.finishing), getString(R.string.DescFinishing), R.drawable.finishing))
+        dataList.add(DataModel(getString(R.string.postmoves), getString(R.string.DescPost), R.drawable.post))
+        dataList.add(DataModel(getString(R.string.defense), getString(R.string.DescDefense), R.drawable.defense))
+        dataList.add(DataModel(getString(R.string.passing), getString(R.string.DescPase), R.drawable.passing))
+        dataList.add(DataModel(getString(R.string.rebounding), getString(R.string.DescRebound), R.drawable.rebounding))
+        dataList.add(DataModel(getString(R.string.all), getString(R.string.DescAll), R.drawable.all))
         photoAdapter.setDataList(dataList)
 
 

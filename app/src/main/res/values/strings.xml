@@ -9,4 +9,12 @@
     <string name="passing">Pase</string>
     <string name="rebounding">Rebotes</string>
     <string name="all">Todas</string>
+    <string name="DescTiro">Tiro a distancia</string>
+    <string name="DescDribbling">Moves</string>
+    <string name="DescFinishing">Layups</string>
+    <string name="DescPost">Footwork</string>
+    <string name="DescDefense">Clampas</string>
+    <string name="DescPase">Dimes</string>
+    <string name="DescRebound">El rebo</string>
+    <string name="DescAll">Mixto</string>
 </resources>
