@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Basker</string>
     <string name="mainTitle">¿Qué habilidad quieres entrenar?</string>
+    <string name="shooting">Tiro</string>
+    <string name="dribbling">Dribbling</string>
+    <string name="finishing">Finishing</string>
+    <string name="postmoves">Postmoves</string>
+    <string name="defense">Defensa</string>
+    <string name="passing">Pase</string>
+    <string name="rebounding">Rebotes</string>
+    <string name="all">Todas</string>
 </resources>

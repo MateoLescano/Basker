@@ -1,6 +1,7 @@
 package com.citesoftware.basker
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.citesoftware.basker.categorias.*
 
 class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.ViewHolder>() {
 
@@ -27,6 +29,36 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
         init {
           itemView.setOnClickListener {
               Toast.makeText(itemView.context,"Click en ${title.text}", Toast.LENGTH_SHORT).show()
+              var intent = Intent(context, MainActivity::class.java)
+
+              when(title.text){
+                  context.getString(R.string.shooting) -> {
+                      intent = Intent(context, ShootingActivity::class.java)
+                  }
+                  context.getString(R.string.dribbling) -> {
+                      intent = Intent(context, DribblingActivity::class.java)
+                  }
+                  context.getString(R.string.finishing) -> {
+                      intent = Intent(context, FinishingActivity::class.java)
+                  }
+                  context.getString(R.string.postmoves) -> {
+                      intent = Intent(context, PostActivity::class.java)
+                  }
+                  context.getString(R.string.defense) -> {
+                      intent = Intent(context, DefenseActivity::class.java)
+                  }
+                  context.getString(R.string.passing) -> {
+                      intent = Intent(context, PassingActivity::class.java)
+                  }
+                  context.getString(R.string.rebounding) -> {
+                      intent = Intent(context, ReboundingActivity::class.java)
+                  }
+                  context.getString(R.string.all) -> {
+                      intent = Intent(context, AllActivity::class.java)
+                  }
+              }
+              intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+              context.startActivity(intent)
           }
         }
 
