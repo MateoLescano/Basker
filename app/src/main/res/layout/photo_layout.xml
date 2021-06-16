@@ -8,8 +8,6 @@
     app:cardElevation="8dp"
     android:layout_marginHorizontal="15dp"
     android:layout_marginVertical="10dp"
-    android:clickable="true"
-    android:focusable="true"
     >
 
 
@@ -23,7 +21,9 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/shooting"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:background="@drawable/rounded_img"
+            />
 
         <TextView
             android:id="@+id/tvImgTitle"
