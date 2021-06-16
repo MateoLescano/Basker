@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/NegroLight">
 
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/mainTitle"
-        android:textColor="@color/black"
+        android:textColor="@color/NaranjaBasker"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +29,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMainTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvMainTitle"
+        tools:listitem="@layout/photo_layout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

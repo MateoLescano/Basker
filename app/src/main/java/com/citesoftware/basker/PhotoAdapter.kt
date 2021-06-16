@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.ViewHolder>() {
@@ -19,14 +20,14 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
 
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        var image : ImageView
-        var title: TextView
-        var description : TextView
+        var image : ImageView = itemView.findViewById(R.id.img1)
+        var title: TextView = itemView.findViewById(R.id.tvImgTitle)
+        var description : TextView = itemView.findViewById(R.id.tvImgDescr)
 
         init {
-            image = itemView.findViewById(R.id.img1)
-            title = itemView.findViewById(R.id.tvImgTitle)
-            description = itemView.findViewById(R.id.tvImgDescr)
+          itemView.setOnClickListener {
+              Toast.makeText(itemView.context,"Click en ${title.text}", Toast.LENGTH_SHORT).show()
+          }
         }
 
     }
