@@ -22,10 +22,17 @@ class MainActivity : AppCompatActivity() {
         photoAdapter = PhotoAdapter(applicationContext)
         recyclerView.adapter = photoAdapter
 
-        dataList.add(DataModel("Titulito", "Kionda", R.drawable.aaa))
-        dataList.add(DataModel("Titulito2", "Kionda2", R.drawable.bbb))
-        dataList.add(DataModel("Titulito3", "Kionda3", R.drawable.pdp))
-
+        dataList.add(DataModel("Tiro", "Tiro a distnacia", R.drawable.shooting))
+        dataList.add(DataModel("Dribbling", "Moves", R.drawable.dribbling))
+        dataList.add(DataModel("Finishing", "Layups", R.drawable.finishing))
+        dataList.add(DataModel("Postmoves", "Footwork", R.drawable.post))
+        dataList.add(DataModel("Defensa", "Clampas", R.drawable.defense))
+        dataList.add(DataModel("Pase", "Dimes", R.drawable.finishing))
+        dataList.add(DataModel("Rebotes", "El rebo", R.drawable.rebounding))
+        dataList.add(DataModel("Todas", "Mixto", R.drawable.all))
         photoAdapter.setDataList(dataList)
+
+
+
     }
 }

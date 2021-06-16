@@ -40,7 +40,7 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
         val data = dataList[position]
 
         holder.title.text = data.title
-        holder.description.text = data.title
+        holder.description.text = data.description
         holder.image.setImageResource(data.image)
     }
 
