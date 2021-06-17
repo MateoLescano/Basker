@@ -36,18 +36,13 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         //spinner
 
         val spinner: Spinner = findViewById(R.id.spinner)
-        // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter.createFromResource(
-            this,
-            R.array.ArrayDia,
-            android.R.layout.simple_spinner_item
-        ).also { adapter ->
-            // Specify the layout to use when the list of choices appears
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            // Apply the adapter to the spinner
-            spinner.adapter = adapter
-            spinner.onItemSelectedListener = this
-        }
+        val values: Array<String> = arrayOf(getString(R.string.dia1), getString(R.string.dia2), getString(R.string.dia3))
+
+        val adapter = ArrayAdapter(this, R.layout.spinner_layout,values)
+        adapter.setDropDownViewResource(R.layout.spinner_dropdown)
+        spinner.adapter = adapter
+        spinner.onItemSelectedListener = this
+
 
         cargarCategorias()
 
@@ -57,13 +52,13 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         val dia = parent?.getItemAtPosition(position).toString()
         when (dia){
 
-            "Dia 1" -> {
+            getString(R.string.dia1) -> {
                 nroDia = 1
             }
-            "Dia 2" -> {
+            getString(R.string.dia2) -> {
                 nroDia = 2
             }
-            "Dia 3" -> {
+            getString(R.string.dia3) -> {
                 nroDia = 3
             }
         }
@@ -72,7 +67,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     private fun cargarCategorias(){
         dataList.clear()
-        dataList.add(MainDataModel(getString(R.string.shooting), nroDia.toString(), R.drawable.shooting,nroDia))
+        dataList.add(MainDataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting,nroDia))
         dataList.add(MainDataModel(getString(R.string.dribbling), getString(R.string.DescDribbling), R.drawable.dribbling,nroDia))
         dataList.add(MainDataModel(getString(R.string.finishing), getString(R.string.DescFinishing), R.drawable.finishing,nroDia))
         dataList.add(MainDataModel(getString(R.string.postmoves), getString(R.string.DescPost), R.drawable.post,nroDia))

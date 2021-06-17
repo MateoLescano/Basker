@@ -17,11 +17,9 @@
     <string name="DescPase">Dimes</string>
     <string name="DescRebound">El rebo</string>
     <string name="DescAll">Mixto</string>
+    <string name="dia1">Día 1</string>
+    <string name="dia2">Día 2</string>
+    <string name="dia3">Día 3</string>
+    <string name="elegir_dia">Rutina elegida:</string>
 
-    <string-array name="ArrayDia">
-        <item>Dia 1</item>
-        <item>Dia 2</item>
-        <item>Dia 3</item>
-
-    </string-array>
 </resources>
