@@ -17,4 +17,11 @@
     <string name="DescPase">Dimes</string>
     <string name="DescRebound">El rebo</string>
     <string name="DescAll">Mixto</string>
+
+    <string-array name="ArrayDia">
+        <item>Dia 1</item>
+        <item>Dia 2</item>
+        <item>Dia 3</item>
+
+    </string-array>
 </resources>

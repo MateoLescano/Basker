@@ -2,6 +2,7 @@ package com.citesoftware.basker
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,9 +14,9 @@ import com.citesoftware.basker.categorias.*
 
 class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.ViewHolder>() {
 
-    var dataList = emptyList<DataModel>()
+    var dataList = emptyList<MainDataModel>()
 
-    internal fun setDataList(dataList: List<DataModel>){
+    internal fun setDataList(dataList: List<MainDataModel>){
         this.dataList = dataList
         notifyDataSetChanged()
     }
@@ -30,6 +31,8 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
           itemView.setOnClickListener {
               Toast.makeText(itemView.context,"Click en ${title.text}", Toast.LENGTH_SHORT).show()
               var intent = Intent(context, MainActivity::class.java)
+              val primerElemento = dataList.elementAt(1)
+
 
               when(title.text){
                   context.getString(R.string.shooting) -> {
@@ -58,6 +61,7 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
                   }
               }
               intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+              intent.putExtra("dia", primerElemento.dia)
               context.startActivity(intent)
           }
         }

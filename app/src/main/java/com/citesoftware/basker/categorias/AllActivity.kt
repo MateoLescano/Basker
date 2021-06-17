@@ -2,6 +2,7 @@ package com.citesoftware.basker.categorias
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
@@ -22,16 +23,24 @@ class AllActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_all)
 
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.shooting))
-        exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
+        val dia = intent.getIntExtra("dia", 1)
+
+        when(intent.getIntExtra("dia", 1)){
+
+            1 -> {
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting))
+            }
+            2 -> {
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.shooting))
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.shooting))
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.shooting))
+            }
+            3 -> {
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.shooting))
+                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.shooting))
+            }
+        }
 
         pagerAll = findViewById(R.id.pagerAll)
         tabLayout = findViewById(R.id.tabLayout)
