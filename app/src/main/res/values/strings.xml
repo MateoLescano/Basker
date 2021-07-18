@@ -47,17 +47,26 @@
     <string name="RFT3">10 series de 2 tiros encestados seguidos.</string>
 
     <string name="R5x5">5 tiros encestados desde 5 lugares distintos.</string>
+
     <string name="Tex5">Spot Circuit</string>
     <string name="DEX5">Tiro desde la pintura, de media distancia y desde un paso delante de la linea de 3.</string>
     <string name="Rex5">2 series de 10 tiros encestados desde 5 angulos (paralelo a la linea de base, en diagonal y de frente al aro).</string>
+
     <string name="Tex6">Media distancia con cortina</string>
     <string name="Dex6">Coloco un cono/silla/objeto simulando un pick/cortina. Comienzo dribbleando desde un lado del pick y tiro en movimiento desde el otro.</string>
+
     <string name="Tex7">Harden Step-Back</string>
     <string name="Dex7">Desde media distancia, hago un dribble entre las piernas e inmediatamente hago dos pasos hacia atras y tiro</string>
+
     <string name="Tex8">Flip Face</string>
     <string name="Dex8">Comenzando debajo del aro, dribbleo hasta la linea de tiro libre, y en un solo movimiento, doy una vuelta de 180 grados y tiro.</string>
     <string name="Rex8">2 series de 10 tiros encestados</string>
+
     <string name="Tex9">Triples</string>
     <string name="Dex9">Triples comunes.</string>
+
+    //Dribbling
+
+
 
 </resources>
