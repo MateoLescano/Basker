@@ -67,6 +67,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     private fun cargarCategorias(){
         dataList.clear()
+        dataList.add(MainDataModel(getString(R.string.all), getString(R.string.DescAll), R.drawable.all,nroDia))
         dataList.add(MainDataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting,nroDia))
         dataList.add(MainDataModel(getString(R.string.dribbling), getString(R.string.DescDribbling), R.drawable.dribbling,nroDia))
         dataList.add(MainDataModel(getString(R.string.finishing), getString(R.string.DescFinishing), R.drawable.finishing,nroDia))
@@ -74,7 +75,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         dataList.add(MainDataModel(getString(R.string.defense), getString(R.string.DescDefense), R.drawable.defense,nroDia))
 //        dataList.add(MainDataModel(getString(R.string.passing), getString(R.string.DescPase), R.drawable.passing,nroDia))
 //        dataList.add(MainDataModel(getString(R.string.rebounding), getString(R.string.DescRebound), R.drawable.rebounding,nroDia))
-        dataList.add(MainDataModel(getString(R.string.all), getString(R.string.DescAll), R.drawable.all,nroDia))
         photoAdapter.setDataList(dataList)
     }
 
