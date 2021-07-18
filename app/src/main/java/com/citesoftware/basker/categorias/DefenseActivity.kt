@@ -24,17 +24,13 @@ class DefenseActivity : AppCompatActivity() {
         when(intent.getIntExtra("dia", 1)){
 
             1 -> {
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.placeholdergif))
+
             }
             2 -> {
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.placeholdergif))
+
             }
             3 -> {
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.placeholdergif))
+
             }
         }
 

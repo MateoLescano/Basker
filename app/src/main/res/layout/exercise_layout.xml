@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="25dp"
                 android:fontFamily="@font/milmedium"
                 android:text="Title"
                 android:textColor="@color/white"
@@ -48,16 +48,34 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="200dp"
-                android:layout_marginBottom="50dp"
+                android:layout_marginTop="25dp"
                 android:fontFamily="@font/millight"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
                 android:text="Desc"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvExTitle" />
+
+
+            <TextView
+                android:id="@+id/tvExRepe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="25dp"
+                android:fontFamily="@font/milthin"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:text="Repe"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvExTitle" />
+                app:layout_constraintTop_toBottomOf="@+id/tvExDesc" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

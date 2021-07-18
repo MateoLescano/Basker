@@ -17,6 +17,7 @@ class PagerAdapter(private val context: Context, private val exercises: List<Dat
         var image : ImageView = itemView.findViewById(R.id.exImg)
         var title: TextView = itemView.findViewById(R.id.tvExTitle)
         var description : TextView = itemView.findViewById(R.id.tvExDesc)
+        var repe : TextView = itemView.findViewById(R.id.tvExRepe)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PageHolder {
@@ -30,8 +31,10 @@ class PagerAdapter(private val context: Context, private val exercises: List<Dat
 
         holder.title.text = data.title
         holder.description.text = data.description
+        holder.repe.text = data.repe
         holder.image.setImageResource(data.image)
     }
+
 
     override fun getItemCount(): Int = exercises.size
 }

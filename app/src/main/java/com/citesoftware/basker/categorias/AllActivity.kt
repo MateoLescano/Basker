@@ -28,17 +28,14 @@ class AllActivity : AppCompatActivity() {
         when(intent.getIntExtra("dia", 1)){
 
             1 -> {
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.tituloTiro1), getString(R.string.descrTiro1), getString(R.string.repeTiro1) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.tituloTiro2), "Tiro completo sin salto, con las rodillas levemente dobladas y manteniendo la pose, asegurar extension completa", "10 tiros encestados desde 5 puntos alrededor de la pintura" , R.drawable.placeholdergif))
             }
             2 -> {
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescFinishing), R.drawable.placeholdergif))
+
             }
             3 -> {
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.shooting), getString(R.string.DescDribbling), R.drawable.placeholdergif))
+
             }
         }
 
