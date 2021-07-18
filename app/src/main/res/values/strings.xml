@@ -64,6 +64,30 @@
 
     <string name="Tex9">Triples</string>
     <string name="Dex9">Triples comunes.</string>
+    <string name="Tex10">Dribble en V Frontal</string>
+    <string name="Tex11">8\'s</string>
+    <string name="Tex12">Dribble con sprint</string>
+    <string name="Tex13">Dribble entre conos</string>
+    <string name="Tex14">Dribble en V Lateral</string>
+    <string name="Tex15">Dribble entre conos dobles</string>
+    <string name="Tex16">Dribble en cruz</string>
+    <string name="Tex17">Dribbling estacionario</string>
+    <string name="Dex10">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, dribbleo de lado a lado frontalmente. Aumento la velocidad Y fuerza tanto como pueda.</string>
+    <string name="Dex11">Con postura baja, dribbleo lo más cerca al piso que pueda en forma de 8 entre las piernas. Aumento la velocidad Y fuerza tanto como pueda.</string>
+    <string name="Dex12">De punta a punta de la cancha, dribbleo en velocidad, freno, cambio la mano del dribble, y vuelvo a acelerar. Nunca paro de dribblear y aumento la velocidad tanto como pueda.</string>
+    <string name="Dex13">Coloco conos/objetos en una linea recta. Dribbleo entre los conos (como en un examen de manejo) en zigzag, luego cambiando de manos, luego entre las piernas, y finalmente por detras de la espalda.</string>
+    <string name="Dex14">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, dribbleo de adelante hacía atrás lateralmente. Aumento la velocidad Y fuerza tanto como pueda.</string>
+    <string name="Dex15">Coloco dos filas de conos/objetos en linea recta. Dribbleo entre los conos de una fila a la otra en zigzag, cambiando de manos, luego entre las piernas, y finalmente por detras de la espalda.</string>
+    <string name="Dex16">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, dribbleo de izquierda a derecha en el frente, entre las piernas, de izquierda a derecha por la espalda, y nuevamente entre las piernas.</string>
+    <string name="Dex17">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, pico la pelota verticalmente aumentando la velocidad y la fuerza tanto como pueda.</string>
+    <string name="Rex10">3 series de 20 dribbles por cada mano.</string>
+    <string name="Rex11">10 vueltas completas en una dirrección y 10 más en la otra.</string>
+    <string name="Rex12">4 series de punta a punta de la cancha.</string>
+    <string name="Rex13">2 series de punta a punta</string>
+    <string name="Rex14">3 series de 20 dribbles por cada mano.</string>
+    <string name="Rex15">2 series de punta a punta.</string>
+    <string name="Rex16">10 series en una dirección y 10 en la otra.</string>
+    <string name="Rex17">3 series de 60 segundos por mano.</string>
 
     //Dribbling
 
