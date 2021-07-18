@@ -24,11 +24,40 @@
 
     //shooting
 
-    <string name="tituloTiro1">Forma de tiro a una mano</string>
-    <string name="descrTiro1">Con una mano, tirar con el brazo armado con angulos de 90 en la axila, codo y muñeca, las rodillas levemente flexionadas y manteniendo la pose después de tirar.</string>
-    <string name="tituloTiro2">Forma de tiro completa</string>
-    <string name="repeTiro1">2 series de: 5 tiros encestados desde 5 lugares alrededor de la pintura. (Total: 25 tiros encestados)</string>
-    <string name="descrTiro2">Tiro completo sin salto, con las rodillas levemente dobladas y manteniendo la pose, asegurar extension completa</string>
-    <string name="repeTiro2">10 tiros encestados desde 5 puntos alrededor de la pintura</string>
+    <string name="Tex1">Forma de tiro a una mano</string>
+    <string name="Dex1">Con una mano, tirar con el brazo armado con angulos de 90 en la axila, codo y muñeca, las rodillas levemente flexionadas y manteniendo la pose después de tirar.</string>
+    <string name="Rex1">5 tiros encestados desde 5 lugares alrededor de la pintura. (Total: 25 tiros encestados)</string>
+
+    <string name="Tex2">Forma de tiro completa</string>
+    <string name="Dex2">Tiro completo sin salto, con las rodillas levemente dobladas y manteniendo la pose, asegurar extension completa</string>
+    <string name="Rex2">10 tiros encestados desde 5 puntos alrededor de la pintura</string>
+
+    <string name="Tex3">Pull Up de media distancia</string>
+    <string name="Dex3">Tiros de media distancia. Entro al tiro con dos pasos.</string>
+    <string name="Rex3">5 tiros encestados desde 5 lugares alrededor de la pintura. (Total: 25 tiros encestados)</string>
+
+    <string name="Tex4">Pump fakes de media distancia</string>
+    <string name="Dex4">Agarro la pelota en movimiento, amago el tiro completo asegurandome de llevar la pelota hasta el punto de tiro, bajo hasta mi centro de gravedad, y tiro normalmente.</string>
+    <string name="Rex4">5 tiros encestados desde 5 lugares a media distancia.(Total: 25 tiros encestados).</string>
+
+    <string name="TFT">Tiros libres</string>
+    <string name="DFT">Tiros libre comunes.</string>
+    <string name="RFT1">25 tiros encestados.</string>
+    <string name="RFT2">10 tiros encestados + 5 series de 2 tiros encestados seguidos.</string>
+    <string name="RFT3">10 series de 2 tiros encestados seguidos.</string>
+
+    <string name="R5x5">5 tiros encestados desde 5 lugares distintos.</string>
+    <string name="Tex5">Spot Circuit</string>
+    <string name="DEX5">Tiro desde la pintura, de media distancia y desde un paso delante de la linea de 3.</string>
+    <string name="Rex5">2 series de 10 tiros encestados desde 5 angulos (paralelo a la linea de base, en diagonal y de frente al aro).</string>
+    <string name="Tex6">Media distancia con cortina</string>
+    <string name="Dex6">Coloco un cono/silla/objeto simulando un pick/cortina. Comienzo dribbleando desde un lado del pick y tiro en movimiento desde el otro.</string>
+    <string name="Tex7">Harden Step-Back</string>
+    <string name="Dex7">Desde media distancia, hago un dribble entre las piernas e inmediatamente hago dos pasos hacia atras y tiro</string>
+    <string name="Tex8">Flip Face</string>
+    <string name="Dex8">Comenzando debajo del aro, dribbleo hasta la linea de tiro libre, y en un solo movimiento, doy una vuelta de 180 grados y tiro.</string>
+    <string name="Rex8">2 series de 10 tiros encestados</string>
+    <string name="Tex9">Triples</string>
+    <string name="Dex9">Triples comunes.</string>
 
 </resources>

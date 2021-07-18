@@ -23,16 +23,23 @@ class ShootingActivity : AppCompatActivity() {
         when(intent.getIntExtra("dia", 1)){
 
             1 -> {
-                exercisesList.add(DataModel(getString(R.string.tituloTiro1), getString(R.string.descrTiro1), getString(R.string.repeTiro1) , R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.tituloTiro2), getString(R.string.descrTiro2), getString(R.string.repeTiro2) , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Pull Up de media distancia", "Tiros de media distancia. Entro al tiro con dos pasos." , "5 tiros encestados desde 5 lugares a media distancia." , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex1), getString(R.string.Dex1), getString(R.string.Rex1) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex3), getString(R.string.Dex3) , getString(R.string.Rex3) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex4),getString(R.string.Dex4) , getString(R.string.Rex4) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT1) , R.drawable.placeholdergif))
             }
             2 -> {
-//                exercisesList.add(DataModel(, , , R.drawable.placeholdergif))
-
+                exercisesList.add(DataModel(getString(R.string.Tex2), getString(R.string.Dex2), getString(R.string.Rex2) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex5),getString(R.string.DEX5) , getString(R.string.Rex5) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex6),getString(R.string.Dex6) , getString(R.string.R5x5) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex7),getString(R.string.Dex7) , getString(R.string.R5x5) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT2) , R.drawable.placeholdergif))
             }
             3 -> {
-
+                exercisesList.add(DataModel(getString(R.string.Tex2), getString(R.string.Dex2), getString(R.string.Rex2) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex8),getString(R.string.Dex8) , getString(R.string.Rex8) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex9),getString(R.string.Dex9) , getString(R.string.R5x5) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT3) , R.drawable.placeholdergif))
             }
         }
 
