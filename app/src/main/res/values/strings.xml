@@ -21,5 +21,8 @@
     <string name="dia2">Día 2</string>
     <string name="dia3">Día 3</string>
     <string name="elegir_dia">Rutina elegida:</string>
+    <string name="tituloTiro1">Forma de tiro a una mano</string>
+    <string name="descrTiro1">Con una mano, tirar con el brazo armado con angulos de 90 en la axila, codo y muñeca, las rodillas levemente flexionadas y manteniendo la pose después de tirar. 2 series de: 5 tiros encestados desde 5 lugares alrededor de la pintura. (Total: 25 tiros encestados)</string>
+    <string name="tituloTiro2">Forma de tiro completa</string>
 
 </resources>
