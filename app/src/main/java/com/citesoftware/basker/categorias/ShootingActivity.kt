@@ -24,8 +24,8 @@ class ShootingActivity : AppCompatActivity() {
 
             1 -> {
                 exercisesList.add(DataModel(getString(R.string.Tex1), getString(R.string.Dex1), getString(R.string.Rex1) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel("Media distancia estacionario", "Tiro desde media distancia concentrandome en la mecanica de tiro." , "25 tiros encestados." , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.Tex3), getString(R.string.Dex3) , getString(R.string.Rex3) , R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.Tex4),getString(R.string.Dex4) , getString(R.string.Rex4) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT1) , R.drawable.placeholdergif))
             }
             2 -> {
@@ -38,6 +38,7 @@ class ShootingActivity : AppCompatActivity() {
             3 -> {
                 exercisesList.add(DataModel(getString(R.string.Tex2), getString(R.string.Dex2), getString(R.string.Rex2) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.Tex8),getString(R.string.Dex8) , getString(R.string.Rex8) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex4),getString(R.string.Dex4) , getString(R.string.Rex4) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.Tex9),getString(R.string.Dex9) , getString(R.string.R5x5) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT3) , R.drawable.placeholdergif))
             }
