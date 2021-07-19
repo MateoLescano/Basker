@@ -10,8 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Basker">
         <activity android:name=".categorias.AllActivity"></activity>
-        <activity android:name=".categorias.ReboundingActivity" />
-        <activity android:name=".categorias.PassingActivity" />
         <activity android:name=".categorias.DefenseActivity" />
         <activity android:name=".categorias.PostActivity" />
         <activity android:name=".categorias.DribblingActivity" />

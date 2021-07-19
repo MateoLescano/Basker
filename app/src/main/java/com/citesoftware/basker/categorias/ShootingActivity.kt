@@ -24,7 +24,7 @@ class ShootingActivity : AppCompatActivity() {
 
             1 -> {
                 exercisesList.add(DataModel(getString(R.string.Tex1), getString(R.string.Dex1), getString(R.string.Rex1) , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Media distancia estacionario", "Tiro desde media distancia concentrandome en la mecanica de tiro." , "25 tiros encestados." , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex18), getString(R.string.Dex18) , getString(R.string.Rex18) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.Tex3), getString(R.string.Dex3) , getString(R.string.Rex3) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT1) , R.drawable.placeholdergif))
             }

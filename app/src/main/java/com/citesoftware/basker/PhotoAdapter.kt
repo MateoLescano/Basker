@@ -50,12 +50,7 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
                   context.getString(R.string.defense) -> {
                       intent = Intent(context, DefenseActivity::class.java)
                   }
-                  context.getString(R.string.passing) -> {
-                      intent = Intent(context, PassingActivity::class.java)
-                  }
-                  context.getString(R.string.rebounding) -> {
-                      intent = Intent(context, ReboundingActivity::class.java)
-                  }
+
                   context.getString(R.string.all) -> {
                       intent = Intent(context, AllActivity::class.java)
                   }
