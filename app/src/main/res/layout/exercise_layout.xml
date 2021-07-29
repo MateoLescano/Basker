@@ -22,19 +22,19 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/exImg"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                tools:layout_height="400dp"
+                android:layout_height="420dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/placeholdergif" />
+                app:srcCompat="@drawable/placeholdergif"
+                tools:layout_height="400dp" />
 
             <TextView
                 android:id="@+id/tvExTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="25dp"
+                android:layout_gravity="center"
                 android:fontFamily="@font/milmedium"
                 android:text="Title"
                 android:textColor="@color/white"
