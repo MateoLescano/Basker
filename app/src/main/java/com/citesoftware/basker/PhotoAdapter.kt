@@ -29,7 +29,6 @@ class PhotoAdapter(val context: Context) : RecyclerView.Adapter<PhotoAdapter.Vie
 
         init {
           itemView.setOnClickListener {
-              Toast.makeText(itemView.context,"Click en ${title.text}", Toast.LENGTH_SHORT).show()
               var intent = Intent(context, MainActivity::class.java)
               val primerElemento = dataList.elementAt(1)
 

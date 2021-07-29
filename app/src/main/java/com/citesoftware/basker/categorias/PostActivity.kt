@@ -24,14 +24,14 @@ class PostActivity : AppCompatActivity() {
 
             1 -> {
 
-                exercisesList.add(DataModel("Giro de poste basico","Me paro de dribbleando de espaldas al aro (posición de poste) dentro de la pintura. Me acerco al aro, y con pie de pivot hago una bandeja", "10 tiros por lado" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Gancho fijo","Me paro enfrente del aro, en paralelo al tablero. Tiro un gancho con el brazo más alejado del aro concentrandome en hacer un giro amplio", "12 ganchos por lado" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Post fadeaway","En posición de poste, me acerco al aro, me doy vuelta y tiro a distancia", "5 tiros encestados desde 4 lugares distintos" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Putbacks","Tiro la pelota contra el tablero para simular un tiro fallado, agarro el rebote e instantaneamente tiro. Idealmente llego a tirar antes de tocar el piso.", "2 series de 10 tiros" , R.drawable.placeholdergif))
+                exercisesList.add(DataModel("Giro de poste basico","Me paro de dribbleando de espaldas al aro (posición de poste) dentro de la pintura. Me acerco al aro, y con pie de pivot hago una bandeja", "10 tiros por lado" , R.drawable.gifpost1d1))
+                exercisesList.add(DataModel("Gancho fijo","Me paro enfrente del aro, en paralelo al tablero. Tiro un gancho con el brazo más alejado del aro concentrandome en hacer un giro amplio", "12 ganchos por lado" , R.drawable.gifpost1d2))
+                exercisesList.add(DataModel("Post fadeaway","En posición de poste, me acerco al aro, me doy vuelta y tiro a distancia", "5 tiros encestados desde 4 lugares distintos" , R.drawable.gifpost1d3))
+                exercisesList.add(DataModel("Putbacks","Tiro la pelota contra el tablero para simular un tiro fallado, agarro el rebote e instantaneamente tiro. Idealmente llego a tirar antes de tocar el piso.", "2 series de 10 tiros" , R.drawable.gifpost1d4))
 
             }
             2 -> {
-                exercisesList.add(DataModel("Mikan Drill","Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.", "3 series de 10 bandejas seguidas" , R.drawable.placeholdergif))
+                exercisesList.add(DataModel("Mikan Drill","Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.", "3 series de 10 bandejas seguidas" , R.drawable.gifpost2d1))
                 exercisesList.add(DataModel("Gancho simple","Entro a la pintura en paralelo al tablero y tiro un gancho. Me concentro en dar los pasos correctos y en que la pelota no baje de la altura del hombro.", "12 ganchos por lado" , R.drawable.placeholdergif))
                 exercisesList.add(DataModel("Hesi fadeaway","En posición de poste dentro de la pintura, finto para un lado, para el otro, y me doy vuelta para tirar a distancia. Puedo hacerlo con salto en diagonal hacía atrás (fadeaway)", "5 tiros encestados desde 4 lugares distintos" , R.drawable.placeholdergif))
                 exercisesList.add(DataModel("Up and under","En posición de poste, me acerco al aro, me doy vuelta y hago un amague de tiro, y con el pie de pivot doy un paso para hacer una bandeja hacía el otro lado", "10 por lado" , R.drawable.placeholdergif))
