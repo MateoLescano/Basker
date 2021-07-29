@@ -68,8 +68,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     private fun cargarCategorias(){
         dataList.clear()
         dataList.add(MainDataModel(getString(R.string.shooting), getString(R.string.DescTiro), R.drawable.shooting,nroDia))
-        dataList.add(MainDataModel(getString(R.string.dribbling), getString(R.string.DescDribbling), R.drawable.dribbling,nroDia))
         dataList.add(MainDataModel(getString(R.string.finishing), getString(R.string.DescFinishing), R.drawable.finishing,nroDia))
+        dataList.add(MainDataModel(getString(R.string.dribbling), getString(R.string.DescDribbling), R.drawable.dribbling,nroDia))
         dataList.add(MainDataModel(getString(R.string.postmoves), getString(R.string.DescPost), R.drawable.post,nroDia))
         dataList.add(MainDataModel(getString(R.string.all), getString(R.string.DescAll), R.drawable.all,nroDia))
 
