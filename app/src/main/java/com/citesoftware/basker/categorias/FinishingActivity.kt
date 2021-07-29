@@ -23,9 +23,9 @@ class FinishingActivity : AppCompatActivity() {
         when(intent.getIntExtra("dia", 1)){
 
             1 -> {
-                exercisesList.add(DataModel("Bandeja ambidiestra","Hago bandejas comunes en diagonal al aro desde ambos lados, concentrandome en los pasos previos y su orden (primero pie derecho y luego izquierdo para bandeja de mano derecha y viceversa para izquierda).", "15 bandejas por lado" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Bandejas bajo el aro","Me paro debajo del aro, mirando hacía el otro aro. Sin mover los pies, hago bandejas con tablero, sin tablero", "10 bandejas de cada tipo" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Bandeja reversa","Empiezo desde fuera de la pintura en paralelo al tablero, y defino con una bandeja pasada de reversa", "12 por lado" , R.drawable.placeholdergif))
+                exercisesList.add(DataModel("Bandeja ambidiestra","Hago bandejas comunes en diagonal al aro desde ambos lados, concentrandome en los pasos previos y su orden (primero pie derecho y luego izquierdo para bandeja de mano derecha y viceversa para izquierda).", "15 bandejas por lado" , R.drawable.giffin1d1))
+                exercisesList.add(DataModel("Bandejas bajo el aro","Me paro debajo del aro, mirando hacía el otro aro. Sin mover los pies, hago bandejas con tablero, sin tablero", "10 bandejas de cada tipo" , R.drawable.giffin1d2))
+                exercisesList.add(DataModel("Bandeja reversa","Empiezo desde fuera de la pintura en paralelo al tablero, y defino con una bandeja pasada de reversa", "12 por lado" , R.drawable.giffin1d3))
             }
             2 -> {
                 exercisesList.add(DataModel("Mikan Drill","Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.", "3 series de 10 bandejas seguidas" , R.drawable.placeholdergif))
