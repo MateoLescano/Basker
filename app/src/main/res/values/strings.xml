@@ -80,6 +80,10 @@
     <string name="Tex15">Dribble entre conos dobles</string>
     <string name="Tex16">Dribble en cruz</string>
     <string name="Tex17">Dribbling estacionario</string>
+    <string name="Tex19">Entre las piernas</string>
+    <string name="Tex20">Detras de la esaplda</string>
+    <string name="Tex21">Crossover</string>
+    <string name="Tex22">Spin</string>
 
     <string name="Dex10">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, dribbleo de lado a lado frontalmente. Aumento la velocidad Y fuerza tanto como pueda.</string>
     <string name="Dex11">Con postura baja, dribbleo lo más cerca al piso que pueda en forma de 8 entre las piernas. Aumento la velocidad Y fuerza tanto como pueda.</string>
@@ -89,6 +93,10 @@
     <string name="Dex15">Coloco dos filas de conos/objetos en linea recta. Dribbleo entre los conos de una fila a la otra en zigzag, cambiando de manos, luego entre las piernas, y finalmente por detras de la espalda.</string>
     <string name="Dex16">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, dribbleo de izquierda a derecha en el frente, entre las piernas, de izquierda a derecha por la espalda, y nuevamente entre las piernas.</string>
     <string name="Dex17">Con los pies abiertos al ancho de los hombros, las rodillas flexionadas y mirando al frente, pico la pelota verticalmente aumentando la velocidad y la fuerza tanto como pueda.</string>
+    <string name="Dex19">Voy en zig zag (puedo usar conos) pasando la pelota entre las piernas cada vez que tengo que cambiar de dirección</string>
+    <string name="Dex20">Voy en zig zag (puedo usar conos) pasando la pelota detrás de la esaplda cada vez que tengo que cambiar de dirección</string>
+    <string name="Dex21">todo</string>
+    <string name="Dex22">Voy en zig zag (puedo usar conos) haciendo spins cada vez que tengo que cambiar de dirección</string>
 
     <string name="Rex10">3 series de 20 dribbles por cada mano.</string>
     <string name="Rex11">10 vueltas completas en una dirrección y 10 más en la otra.</string>
@@ -98,6 +106,45 @@
     <string name="Rex15">2 series de punta a punta.</string>
     <string name="Rex16">10 series en una dirección y 10 en la otra.</string>
     <string name="Rex17">3 series de 60 segundos por mano.</string>
+    <string name="Rex19">2 series de recorrido completo</string>
+    <string name="Rex21">Todo</string>
+    <string name="Tex23">Giro de poste basico</string>
+    <string name="Tex24">Gancho fijo</string>
+    <string name="Tex25">Post fadeaway</string>
+    <string name="Tex26">Putbacks</string>
+    <string name="Tex27">Mikan Drill</string>
+    <string name="Tex28">Gancho simple</string>
+    <string name="Tex29">Hesi fadeaway</string>
+    <string name="Tex30">Up and under</string>
+    <string name="Tex31">Rondo</string>
+    <string name="Tex32">Gancho con giro</string>
+    <string name="Tex33">Putback Up and under</string>
+    <string name="Tex34">Spin fadeaway</string>
+    <string name="Dex23">Me paro de dribbleando de espaldas al aro (posición de poste) dentro de la pintura. Me acerco al aro, y con pie de pivot hago una bandeja</string>
+    <string name="Dex24">Me paro enfrente del aro, en paralelo al tablero. Tiro un gancho con el brazo más alejado del aro concentrandome en hacer un giro amplio</string>
+    <string name="Dex25">En posición de poste, me acerco al aro, me doy vuelta y tiro a distancia</string>
+    <string name="Dex26">Tiro la pelota contra el tablero para simular un tiro fallado, agarro el rebote e instantaneamente tiro. Idealmente llego a tirar antes de tocar el piso.</string>
+    <string name="Dex27">Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.</string>
+    <string name="Dex28">Entro a la pintura en paralelo al tablero y tiro un gancho. Me concentro en dar los pasos correctos y en que la pelota no baje de la altura del hombro.</string>
+    <string name="Dex29">En posición de poste dentro de la pintura, finto para un lado, para el otro, y me doy vuelta para tirar a distancia. Puedo hacerlo con salto en diagonal hacía atrás (fadeaway)</string>
+    <string name="Dex30">En posición de poste, me acerco al aro, me doy vuelta y hago un amague de tiro, y con el pie de pivot doy un paso para hacer una bandeja hacía el otro lado</string>
+    <string name="Dex31">Corro hacía el aro como para hacer una bandeja, pero freno el movimiento extendiendo el brazo antes de tirar, y me doy vuelta para tirar</string>
+    <string name="Dex32">Me paro de espaldas al aro sobre la linea de la pintura. Me doy vuelta hacía afuera,hago un pique y tiro un gancho. Me concentro en dar los pasos correctos y en que la pelota no baje de la altura del hombro</string>
+    <string name="Dex33">Tiro la pelota contra el tablero para simular un tiro fallado, agarro el rebote, hago un amague de tiro, y con el pie de pivot doy un paso para hacer una bandeja hacía el otro lado</string>
+    <string name="Dex34">En posición de poste, giro encarando hacía el aro, doy el primer paso como en un eurostep, pero cambio de dirección hacía atrás en el segundo y tiro alejandome del aro</string>
+    <string name="Rex23">10 tiros por lado</string>
+    <string name="Rex24">12 ganchos por lado</string>
+    <string name="Rex25">5 tiros encestados desde 4 lugares distintos</string>
+    <string name="Rex26">2 series de 10 tiros</string>
+    <string name="Rex27">3 series de 10 bandejas seguidas</string>
+    <string name="Rex28">12 ganchos por lado</string>
+    <string name="Rex29">5 tiros encestados desde 4 lugares distintos</string>
+    <string name="Rex30">10 por lado</string>
+    <string name="Rex32">2 series de 12 ganchos por lado</string>
+    <string name="Rex33">2 series de 12 tiros</string>
+    <string name="Rex34">15 tiros encestados</string>
+
+    //post
 
     //finishing
 
