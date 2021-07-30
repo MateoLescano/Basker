@@ -27,14 +27,14 @@ class AllActivity : AppCompatActivity() {
 
             1 -> {
                 exercisesList.add(DataModel(getString(R.string.Tex11),getString(R.string.Dex11) , getString(R.string.Rex11) , R.drawable.gifdrib1d2))
-                exercisesList.add(DataModel("Bandeja reversa","Empiezo desde fuera de la pintura en paralelo al tablero, y defino con una bandeja pasada de reversa", "12 por lado" , R.drawable.giffin1d3))
-                exercisesList.add(DataModel("Hesi fadeaway","En posición de poste dentro de la pintura, finto para un lado, para el otro, y me doy vuelta para tirar a distancia. Puedo hacerlo con salto en diagonal hacía atrás (fadeaway)", "5 tiros encestados desde 4 lugares distintos" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.Tex3), getString(R.string.Dex3) , getString(R.string.Rex3) , R.drawable.placeholdergif))
-                exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT1) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex37),getString(R.string.Dex37), getString(R.string.Rex37) , R.drawable.giffin1d3))
+                exercisesList.add(DataModel(getString(R.string.Tex29),getString(R.string.Dex29), getString(R.string.Rex29) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex3), getString(R.string.Dex3) , getString(R.string.Rex3) , R.drawable.giftiro1d3))
+                exercisesList.add(DataModel(getString(R.string.TFT),getString(R.string.DFT) , getString(R.string.RFT2) , R.drawable.giftiro1d4))
             }
             2 -> {
                 exercisesList.add(DataModel(getString(R.string.Tex16), getString(R.string.Dex16), getString(R.string.Rex16) , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Mikan Drill","Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.", "3 series de 10 bandejas seguidas" , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex27),getString(R.string.Dex27), getString(R.string.Rex27) , R.drawable.gifpost2d1))
                 exercisesList.add(DataModel("Up and under","En posición de poste, me acerco al aro, me doy vuelta y hago un amague de tiro, y con el pie de pivot doy un paso para hacer una bandeja hacía el otro lado", "10 por lado" , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.Tex6),getString(R.string.Dex6) , getString(R.string.R5x5) , R.drawable.placeholdergif))
                 exercisesList.add(DataModel(getString(R.string.Tex7),getString(R.string.Dex7) , getString(R.string.R5x5) , R.drawable.placeholdergif))

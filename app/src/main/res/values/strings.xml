@@ -22,7 +22,7 @@
     <string name="dia3">Día 3</string>
     <string name="elegir_dia">Rutina elegida:</string>
 
-    //shooting
+    //Shooting
 
     <string name="Tex1">Forma de tiro a una mano</string>
     <string name="Dex1">Con una mano, tirar con el brazo armado con angulos de 90 en la axila, codo y muñeca, las rodillas levemente flexionadas y manteniendo la pose después de tirar.</string>
@@ -108,6 +108,9 @@
     <string name="Rex17">3 series de 60 segundos por mano.</string>
     <string name="Rex19">2 series de recorrido completo</string>
     <string name="Rex21">Todo</string>
+
+    //Post
+
     <string name="Tex23">Giro de poste basico</string>
     <string name="Tex24">Gancho fijo</string>
     <string name="Tex25">Post fadeaway</string>
@@ -120,6 +123,7 @@
     <string name="Tex32">Gancho con giro</string>
     <string name="Tex33">Putback Up and under</string>
     <string name="Tex34">Spin fadeaway</string>
+
     <string name="Dex23">Me paro de dribbleando de espaldas al aro (posición de poste) dentro de la pintura. Me acerco al aro, y con pie de pivot hago una bandeja</string>
     <string name="Dex24">Me paro enfrente del aro, en paralelo al tablero. Tiro un gancho con el brazo más alejado del aro concentrandome en hacer un giro amplio</string>
     <string name="Dex25">En posición de poste, me acerco al aro, me doy vuelta y tiro a distancia</string>
@@ -132,6 +136,7 @@
     <string name="Dex32">Me paro de espaldas al aro sobre la linea de la pintura. Me doy vuelta hacía afuera,hago un pique y tiro un gancho. Me concentro en dar los pasos correctos y en que la pelota no baje de la altura del hombro</string>
     <string name="Dex33">Tiro la pelota contra el tablero para simular un tiro fallado, agarro el rebote, hago un amague de tiro, y con el pie de pivot doy un paso para hacer una bandeja hacía el otro lado</string>
     <string name="Dex34">En posición de poste, giro encarando hacía el aro, doy el primer paso como en un eurostep, pero cambio de dirección hacía atrás en el segundo y tiro alejandome del aro</string>
+
     <string name="Rex23">10 tiros por lado</string>
     <string name="Rex24">12 ganchos por lado</string>
     <string name="Rex25">5 tiros encestados desde 4 lugares distintos</string>
@@ -144,12 +149,36 @@
     <string name="Rex33">2 series de 12 tiros</string>
     <string name="Rex34">15 tiros encestados</string>
 
-    //post
+    //Finishing
 
-    //finishing
+    <string name="Tex35">Bandeja ambidiestra</string>
+    <string name="Tex36">Bandejas bajo el aro</string>
+    <string name="Tex37">Bandeja reversa</string>
+    <string name="Tex38">Mikan Drill</string>
+    <string name="Tex39">Stop and go</string>
+    <string name="Tex40">Euro Step</string>
+    <string name="Tex41">Bandeja con finta</string>
+    <string name="Tex42">Hop step</string>
+    <string name="Tex43">Flotadora simple</string>
 
+    <string name="Dex35">Hago bandejas comunes en diagonal al aro desde ambos lados, concentrandome en los pasos previos y su orden (primero pie derecho y luego izquierdo para bandeja de mano derecha y viceversa para izquierda).</string>
+    <string name="Dex36">Me paro debajo del aro, mirando hacía el otro aro. Sin mover los pies, hago bandejas con tablero, sin tablero</string>
+    <string name="Dex37">Empiezo desde fuera de la pintura en paralelo al tablero, y defino con una bandeja pasada de reversa</string>
+    <string name="Dex38">Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.</string>
+    <string name="Dex39">Empiezo dribleando desde fuera de la pintura. Entro con velocidad, me detengo sin dejar de driblear y ataco el aro con bandeja normal, eurostep o flotadora.</string>
+    <string name="Dex40">Empiezo dribleando desde fuera de la pintura  y hago un eurostep. Hago eurostep para maximizar la distancia (manteniendo el lado del aro que estoy atacando) y para cambiar de dirección en el segundo paso (para tirar de frente o con bandeja reversa)</string>
+    <string name="Dex41">Hago bandejas comunes en diagonal al aro desde ambos lados, pero mientras doy el primer paso hago una finta (amague de pase, movimiento circular, cambio de mano por detras de la espalda)</string>
+    <string name="Dex42">Empiezo dribbleando en dirección al aro, salgo y caigo con los dos pies juntos, y tiro al aro. Puede ser de frente o con cambio de dirección</string>
+    <string name="Dex43">Empiezo dribleando desde fuera de la pintura, entro en diagonal y defino con una flotadora. Me concentro en dar los pasos correctos, en extenderme completamente y en mantener la pose después de tirar</string>
 
-
-
+    <string name="Rex35">15 bandejas por lado</string>
+    <string name="Rex36">10 bandejas de cada tipo</string>
+    <string name="Rex37">12 por lado</string>
+    <string name="Rex38">3 series de 10 bandejas seguidas</string>
+    <string name="Rex39">2 series de 15</string>
+    <string name="Rex40">15 euro steps por lado</string>
+    <string name="Rex41">15 bandejas por lado</string>
+    <string name="Rex42">15 hop steps</string>
+    <string name="Rex43">15 flotadoras por lado.</string>
 
 </resources>

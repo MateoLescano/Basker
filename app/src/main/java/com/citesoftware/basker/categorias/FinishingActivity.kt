@@ -23,19 +23,19 @@ class FinishingActivity : AppCompatActivity() {
         when(intent.getIntExtra("dia", 1)){
 
             1 -> {
-                exercisesList.add(DataModel("Bandeja ambidiestra","Hago bandejas comunes en diagonal al aro desde ambos lados, concentrandome en los pasos previos y su orden (primero pie derecho y luego izquierdo para bandeja de mano derecha y viceversa para izquierda).", "15 bandejas por lado" , R.drawable.giffin1d1))
-                exercisesList.add(DataModel("Bandejas bajo el aro","Me paro debajo del aro, mirando hacía el otro aro. Sin mover los pies, hago bandejas con tablero, sin tablero", "10 bandejas de cada tipo" , R.drawable.giffin1d2))
-                exercisesList.add(DataModel("Bandeja reversa","Empiezo desde fuera de la pintura en paralelo al tablero, y defino con una bandeja pasada de reversa", "12 por lado" , R.drawable.giffin1d3))
+                exercisesList.add(DataModel(getString(R.string.Tex35),getString(R.string.Dex35), getString(R.string.Rex35) , R.drawable.giffin1d1))
+                exercisesList.add(DataModel(getString(R.string.Tex36),getString(R.string.Dex36), getString(R.string.Rex36) , R.drawable.giffin1d2))
+                exercisesList.add(DataModel(getString(R.string.Tex37),getString(R.string.Dex37), getString(R.string.Rex37) , R.drawable.giffin1d3))
             }
             2 -> {
-                exercisesList.add(DataModel("Mikan Drill","Desde abajo del aro, doy un paso con la pierna izquierda hacía la derecha y en el mismo movimiento con hago una bandeja de mano derecha. Agarro la pelota apenas puedo y hago el movimiento inverso hacía la izquierda, y así sucesivamente.", "3 series de 10 bandejas seguidas" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Stop and go","Empiezo dribleando desde fuera de la pintura. Entro con velocidad, me detengo sin dejar de driblear y ataco el aro con bandeja normal, eurostep o flotadora.", "2 series de 15" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Euro Step","Empiezo dribleando desde fuera de la pintura  y hago un eurostep. Hago eurostep para maximizar la distancia (manteniendo el lado del aro que estoy atacando) y para cambiar de dirección en el segundo paso (para tirar de frente o con bandeja reversa)", "15 euro steps por lado" , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex38),getString(R.string.Dex38), getString(R.string.Rex38) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex39),getString(R.string.Dex39), getString(R.string.Rex39) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex40),getString(R.string.Dex40), getString(R.string.Rex40) , R.drawable.placeholdergif))
             }
             3 -> {
-                exercisesList.add(DataModel("Bandeja con finta","Hago bandejas comunes en diagonal al aro desde ambos lados, pero mientras doy el primer paso hago una finta (amague de pase, movimiento circular, cambio de mano por detras de la espalda)", "15 bandejas por lado" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Hop step","Empiezo dribbleando en dirección al aro, salgo y caigo con los dos pies juntos, y tiro al aro. Puede ser de frente o con cambio de dirección", "15 hop steps" , R.drawable.placeholdergif))
-                exercisesList.add(DataModel("Flotadora simple","Empiezo dribleando desde fuera de la pintura, entro en diagonal y defino con una flotadora. Me concentro en dar los pasos correctos, en extenderme completamente y en mantener la pose después de tirar", "15 flotadoras por lado." , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex41),getString(R.string.Dex41), getString(R.string.Rex41) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex42),getString(R.string.Dex42), getString(R.string.Rex42) , R.drawable.placeholdergif))
+                exercisesList.add(DataModel(getString(R.string.Tex43),getString(R.string.Dex43), getString(R.string.Rex43) , R.drawable.placeholdergif))
             }
         }
 
