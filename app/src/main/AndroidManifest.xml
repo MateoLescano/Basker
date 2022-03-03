@@ -14,7 +14,8 @@
         <activity android:name=".categorias.DribblingActivity" />
         <activity android:name=".categorias.FinishingActivity" />
         <activity android:name=".categorias.ShootingActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
