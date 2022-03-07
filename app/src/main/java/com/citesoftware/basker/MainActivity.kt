@@ -46,6 +46,10 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
         cargarCategorias()
 
+        val actionbar = supportActionBar
+        actionbar!!.title = getString(R.string.nombreCompleto)
+        actionbar.setDisplayHomeAsUpEnabled(true)
+
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
@@ -79,4 +83,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     override fun onNothingSelected(parent: AdapterView<*>?) {
 
     }
+
+
 }
